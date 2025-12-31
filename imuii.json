@@ -1,0 +1,11 @@
+{
+  "name": "wealthease",
+  "framework": "nextjs",
+  "language": "typescript",
+  "buildCommand": "next build",
+  "startCommand": "next start",
+  "domain": "wealthease2",
+  "email": "24523074@students.uii.ac.id",
+  "secretKey": "imuii_7013a482da5b715602bcbed6d04ce786ac751ef6635c5bab50befdaec2419493",
+  "repoUrl": "https://github.com/Lab-Sisjarkom-IMUII/wealthease2-895368d9.git"
+}
