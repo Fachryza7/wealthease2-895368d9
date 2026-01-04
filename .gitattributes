@@ -1,0 +1,19 @@
+# GitHub Language Detection Override
+# This tells GitHub to properly detect the project language
+
+# Mark TypeScript as the primary language
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
+
+# Exclude generated files from language statistics
+*.html linguist-generated=true
+*.css linguist-generated=true
+*.js linguist-generated=true
+
+# Exclude documentation from statistics
+*.md linguist-documentation=true
+
+# Vendor and dependency files
+/frontend/node_modules/** linguist-vendored
+/backend/node_modules/** linguist-vendored
+/frontend/.next/** linguist-generated
